@@ -126,7 +126,7 @@ heart-redirect
   }
 </script>
 
-ezmob
+ezmo-redirect
 
 <div class="cf-turnstile" data-sitekey="0x4AAAAAAATxbAZe1ABfQkus" data-callback="validateAndRedirect"></div>
 

